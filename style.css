@@ -1,0 +1,98 @@
+/* for crimson font */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Crimson Text", sans-serif !important;
+  background-color: #e5f3ff !important;
+
+}
+
+.intro {
+  text-align: center;
+  margin: 10% 5%;
+  
+}
+
+h1 {
+  font-size: 300% !important;
+  font-weight: bolder !important;
+  color: #000105;
+  
+}
+
+#intro-story {
+  margin-top: 15%;
+}
+.intro > p {
+  font-style: italic;
+  color: #ab52cb;
+  font-size: 125%;
+}
+
+h2 {
+  color: #600dd9;
+}
+
+.char-container {
+  margin-bottom: 20%;
+}
+
+#desc-header, #description {
+  text-align: center;
+}
+
+#desc-header {
+  color: #d90dad;
+  font-size: 250%;
+}
+
+#description {
+  color: #d90d6f;
+  font-size: 200%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+}
+ h3 {
+   font-weight: bold !important;
+   font-size: 50%;
+   color: #430998;
+ }
+
+.organization {
+  border-style: solid;
+  border-color: #910998;
+  margin-bottom: 2%;
+  
+}
+
+.organization > p {
+  font-size: 120%;
+}
+
+.facts {
+  border-color: purple;
+  border-radius: 10%;
+}
+
+
+#phoenix {
+  border-radius: 100%;
+  width: 20%;
+  height: 20%;
+  margin-bottom: 5%;
+}
+
+#newsletter {
+  margin-right:0;
+}
+
+#newsletter:hover {
+  color: pink;
+}
+#newsletter:link, #newsletter:visited {
+  color: purple;
+}
